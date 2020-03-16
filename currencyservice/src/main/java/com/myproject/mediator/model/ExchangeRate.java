@@ -3,27 +3,27 @@ package com.myproject.mediator.model;
 import java.math.BigDecimal;
 
 public class ExchangeRate {
-    private  String ccy;
-    private String base_ccy;
+    private CurrencyEnum ccy;
+    private CurrencyEnum base_ccy;
     private BigDecimal buy;
     private BigDecimal sale;
 
     public ExchangeRate() {
     }
 
-    public String getCcy() {
+    public CurrencyEnum getCcy() {
         return ccy;
     }
 
-    public void setCcy(String ccy) {
+    public void setCcy(CurrencyEnum ccy) {
         this.ccy = ccy;
     }
 
-    public String getBase_ccy() {
+    public CurrencyEnum getBase_ccy() {
         return base_ccy;
     }
 
-    public void setBase_ccy(String base_ccy) {
+    public void setBase_ccy(CurrencyEnum base_ccy) {
         this.base_ccy = base_ccy;
     }
 
